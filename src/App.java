@@ -1,5 +1,10 @@
+import br.com.jcalango.view.JSplash;
+import br.com.jcalango.view.JIntro;
+
 public class App {
     public static void main(String[] args) throws Exception {
+
+        new JIntro();
         Fomiga f = new Fomiga();
         f.mover();f.dormir();f.fazerSom();f.mostrarEnergia();f.comer();f.verificarEnergia();
 
