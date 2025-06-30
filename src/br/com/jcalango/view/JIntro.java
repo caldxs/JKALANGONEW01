@@ -24,9 +24,12 @@ public class JIntro extends JFrame {
         JButton startJButton = new JButton("Iniciar");
         add(startJButton);
         startJButton.addActionListener(new ActionListener() {
+            
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(JIntro.this, "PRIMEIRA PARTE ");
+                dispose();
+                new JCadastroJogador();
+                 JOptionPane.showMessageDialog(JIntro.this, "PRIMEIRA PARTE ");
             }
         });
 

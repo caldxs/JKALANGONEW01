@@ -15,11 +15,11 @@ public abstract class Personagem {
 
     public void verificarEnergia(){
         if(energia < 5){
-            JOptionPane.showMessageDialog(null, "Personagem cansado");
-            JOptionPane.showMessageDialog(null,"Personagem está sem energia, vá comer ou domrir ");
+          //  JOptionPane.showMessageDialog(null, "Personagem cansado");
+           // JOptionPane.showMessageDialog(null,"Personagem está sem energia, vá comer ou domrir ");
 
         }else{
-            JOptionPane.showMessageDialog(null,"O personagem está descansado");
+        //    JOptionPane.showMessageDialog(null,"O personagem está descansado");
             
         }
         }
